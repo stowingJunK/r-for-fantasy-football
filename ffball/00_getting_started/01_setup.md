@@ -3,11 +3,11 @@ https://www.r-project.org/
 
 
 ## Installing R
-R is available on most computers running Linux, Mac OS X, or Windows. According to their website, the Comprehensive R Archive Network (CRAN) "is a network of ftp and web servers around the world that store identical, up-to-date, versions of code and documentations for R". In essence, CRAN directs you to the most reliable places to download the most recent versions of R. The current release is R 3.4.3 as of November 30, 2017, of which will be compatible with the content of this repository. Click the link below, navigate to the download page for your operating system, and follow the instructions for installing the R, which contains the basic necessities of writing and running R code.
+R is available on most computers running Linux, Mac OS X, or Windows. According to their website, the Comprehensive R Archive Network (CRAN) "is a network of ftp and web servers around the world that store identical, up-to-date, versions of code and documentations for R". In essence, CRAN directs you to the most reliable places to download the most recent versions of R. The current release is R 3.4.3 as of November 30, 2017, of which will be compatible with the content in this repository. Click the link below, navigate to the download page for your operating system, and follow the instructions for installing the R, which contains the basic necessities of writing and running R code.
 
 * [The Comprehensive R Archive Network](https://cran.r-project.org/ "CRAN Homepage")
 
-The screenshots on this page were captured on the Windows version of R, but can also be referenced for R installed on other operating systems.
+The screenshots on this page were captured on the Windows version of R, but they can also be referenced for R installed on other operating systems.
 
 ## R Console
 There are several methods to write and run code after having installed and located R. The most vanilla way of processing code is by using the command line.
@@ -17,7 +17,7 @@ There are several methods to write and run code after having installed and locat
 In the above, I compute the sum of 2+2. 
 
 ## R GUI
-Similarly you can access the R console within the R GUI, which comes packaged with your download.
+Similarly you can access the R console within the R GUI, which comes packaged with your CRAN download.
 
 ![gui]
 
@@ -37,7 +37,9 @@ If you've used anything like Anacadona for developing Python code or MATLAB, you
 
 ![rstudio]
 
-Congratulations! You now have the basic tools for writing your first lines of R code. In the next section, [the Basics](https://github.com/stowingJunK/r-for-fantasy-football/blob/master/ffball/01_the_basics/01_introduction.md), I begin to cover the basic building blocks and synthax required to write the most basic R code.
+Congratulations! You now have the basic tools for writing your first lines of R code. Each of the different methods of running R code discussed on this page have its own merit, but, for the sake of consistency, R Studio will be used to for a majority of the material throughout this project.
+
+In the next section, [the Basics](https://github.com/stowingJunK/r-for-fantasy-football/blob/master/ffball/01_the_basics/01_introduction.md), I begin to cover the basic building blocks and synthax required to write the most basic R code.
 
 [cmd_line]: https://github.com/stowingJunK/r-for-fantasy-football/blob/master/ffball/00_getting_started/r_cmd_line.PNG "R Command Line"
 [gui]: https://github.com/stowingJunK/r-for-fantasy-football/blob/master/ffball/00_getting_started/r_gui.PNG "R Gui"
