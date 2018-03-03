@@ -29,9 +29,17 @@ Writing your R code in a script rather than in the console allows you to save yo
 
 
 ## R Studio
-While the R GUI is the bare minimum for writing lasting code, I personally prefer the added features within R Studio, a commercially sold integrated development environment (IDE) for R. Luckily, the open source version of R Studio is free for home usage. 
+While the R GUI is the bare minimum for writing lasting code, I personally prefer the added features within R Studio, a commercially sold integrated development environment (IDE) for R. Luckily, the open source version of R Studio is free for home usage. You can download R Studio here:
 
+* [R Studio](https://www.rstudio.com/products/rstudio/download/ "R Studio Download")
+
+If you've used anything like Anacadona for developing Python code or MATLAB, you will be familiar with this interface. R Studio not only has a sleeker feel, but, at a glance, there are also windows for monitoring variables, file directories, and plots. You can also write R Markdown files and publish reports that integrate computer language (R code) with human-readable language (i.e. English), which will be covered in a later section.
+
+![rstudio]
+
+Congratulations! You now have the basic tools for writing your first lines of R code. In the next section, [the Basics](https://github.com/stowingJunK/r-for-fantasy-football/blob/master/ffball/01_the_basics/01_introduction.md), I begin to cover the basic building blocks and synthax required to write the most basic R code.
 
 [cmd_line]: https://github.com/stowingJunK/r-for-fantasy-football/blob/master/ffball/00_getting_started/r_cmd_line.PNG "R Command Line"
 [gui]: https://github.com/stowingJunK/r-for-fantasy-football/blob/master/ffball/00_getting_started/r_gui.PNG "R Gui"
 [script]: https://github.com/stowingJunK/r-for-fantasy-football/blob/master/ffball/00_getting_started/r_gui_new_script.PNG "R Gui New Script"
+[rstudio]: https://github.com/stowingJunK/r-for-fantasy-football/blob/master/ffball/00_getting_started/r_studio.PNG "R Studio"
