@@ -39,7 +39,7 @@ If you've used anything like Anacadona for developing Python code or MATLAB, you
 
 Congratulations! You now have the basic tools for writing your first lines of R code. Each of the different methods of running R code discussed on this page have its own merit, but, for the sake of consistency, R Studio will be used to for a majority of the material throughout this project.
 
-In the next section, [the Basics](https://github.com/stowingJunK/r-for-fantasy-football/blob/master/ffball/01_the_basics/01_introduction.md), I begin to cover the basic building blocks and synthax required to write the most basic R code.
+In the next section, [The Basics](https://github.com/stowingJunK/r-for-fantasy-football/blob/master/ffball/01_the_basics/01_introduction.md), I begin to cover the basic building blocks and synthax required to write the most basic R code.
 
 [cmd_line]: https://github.com/stowingJunK/r-for-fantasy-football/blob/master/ffball/00_getting_started/r_cmd_line.PNG "R Command Line"
 [gui]: https://github.com/stowingJunK/r-for-fantasy-football/blob/master/ffball/00_getting_started/r_gui.PNG "R Gui"
