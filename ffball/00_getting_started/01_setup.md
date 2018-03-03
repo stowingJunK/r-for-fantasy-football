@@ -11,14 +11,20 @@ The screenshots on this page were captured on the Windows version of R, but can 
 
 ## R Console
 There are several methods to write and run code after having installed and located R. The most vanilla way of processing code is by using the command line.
+
 ![cmd_line]
+
 In the above, I compute the sum of 2+2. 
 
 ## R GUI
 Similarly you can access the R console within the R GUI, which comes packaged with your download.
+
 ![gui]
+
 In addition to a different theme, the GUI also allows you to create, write, save, and source script files.
+
 ![script]
+
 Writing your R code in a script rather than in the console allows you to save your work and run your computations in the future. Code entered in the console is lost after closing the window.
 
 
