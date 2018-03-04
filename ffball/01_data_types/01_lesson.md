@@ -26,13 +26,33 @@ Numeric objects are used to represent decimal values in R. An example of a numer
 > player <- 'foles'
 > yards <- as.integer(373)
 > mvp <- TRUE
-> imaginary <- 5 + 5i
+> imaginary <- 5 + 3i
 
 > as.numeric(player)
 [1] NA
 Warning message:
 NAs introduced by coercion
+
+> as.numeric(yards)
+[1] 373
+
+> as.numeric(mvp)
+[1] 1
+
+> as.numeric(imaginary)
+[1] 5
+Warning message:
+imaginary parts discarded in coercion 
 ```
+As you can tell, the `as.numeric` function reacts differently to different data types. When invoking the function on a character object, if the string contains anything other than numeric values, NA (Not Available) is returned. If the object only contains numeric values, it will return a numeric object. 
+```r
+> folesNumber <- '9'
+> as.numeric(folesNumber)
+[1] 9
+```
+Integers convert easily to numerics. When converting logical objects into a numeric, `TRUE` becomes `1` and `FALSE` becomes `
+0`. For complex objects, only the real part will be extracted.
+
 
 ### Integer
 Integer objects must be 
@@ -52,7 +72,7 @@ Character objects are used to represent string values in R. Examples of a charac
 ## Attributes
 
 ## Summary
-attributes
+class
 as.numeric
 as.integer
 as.complex
