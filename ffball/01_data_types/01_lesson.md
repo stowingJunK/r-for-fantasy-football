@@ -10,15 +10,27 @@ In R, there are five basic or "atomic" classes of objects.
 * Complex
 * Logical
 
-### Character
-Character objects are used to represent string values in R. 
-
 ### Numeric
+Numeric objects are used to represent decimal values in R. An example of a numeric object is `7` or `3`. This is also the default computational data type.
 
 ### Integer
+Integer objects are 
+```r
+x <- as.integer(10.5)
+```
 
 ### Complex
+
+
+### Character
+Character objects are used to represent string values in R. Examples of a character object is `brady` or `foles`. 
+
 
 ### Logical
 
 ## Attributes
+
+## Summary
+
+## References
+http://www.r-tutor.com/
