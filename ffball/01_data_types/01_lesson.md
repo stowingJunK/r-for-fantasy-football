@@ -10,6 +10,16 @@ In R, there are five basic or "atomic" classes of objects.
 * Complex
 * Logical
 
+An object's class can be retrieved by the `class` function.
+```r
+> recYards <- 72
+```
+For example, if I want to find out the type of data used to represent reception yards, I would do this:
+```r
+> class(recYards)
+[1] "numeric"
+```
+
 ### Numeric
 Numeric objects are used to represent decimal values in R. An example of a numeric object is `7` or `3`. This is also the default computational data type.
 
