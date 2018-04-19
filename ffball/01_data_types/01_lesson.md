@@ -123,8 +123,34 @@ Instead, you must define them ahead of time if you know the result will be compl
 ```
 
 ### Character
-Character objects are used to represent string values in R. Examples of a character object is `brady` or `foles`. Objects can be converted to characters by invoking the `as.character` function. 
+Character objects are used to represent string values in R. Examples of a character object is `brady` or `foles`. Objects can be converted to characters by invoking the `as.character` function. Almost all types of objects can be transformed into characters.
+```r
+> as.character(50)
+[1] "50"
 
+> as.character(TRUE)
+[1] "TRUE"
+
+> as.character(6+3i)
+[1] "6+3i"
+
+> as.character(NaN)
+[1] "NaN"
+
+> as.character(Inf)
+[1] "Inf"
+
+> as.character(NA)
+[1] NA
+```
+As you can see, one of the few exceptions, NA (or missing value), cannot be converted into a string value.
+
+Character objects can be concatenated using the `paste` function. For example:
+```r
+> firstName <- 'Tom'
+> lastName <- 'Brady'
+> paste(firstName, lastName)
+[1] "Tom Brady"
 
 ### Logical
 The only logical values are `TRUE`, `FALSE`, and `NA`. `NA` (or not applicable) is an empty value and is considered a logical object itself.
