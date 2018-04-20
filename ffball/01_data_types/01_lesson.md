@@ -193,16 +193,23 @@ Standard logical operators are `&` (and), `|` (or), and `!` (negation).
 [1] FALSE
 ```
 
-
-## Attributes
-
 ## Summary
 class
+
 as.numeric
+
 as.integer
+
 as.complex
+
+sqrt
+
 as.character
+
+paste
+
 as.logical
+
 
 ## References
 http://www.r-tutor.com/
