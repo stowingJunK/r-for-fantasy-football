@@ -177,21 +177,23 @@ Standard logical operators are `&` (and), `|` (or), and `!` (negation).
 ```
 
 ## Summary
-as.numeric
+Functions used:
 
-class
+* as.numeric
 
-as.integer
+* class
 
-as.complex
+* as.integer
 
-sqrt
+* as.complex
 
-as.character
+* sqrt
 
-paste
+* as.character
 
-as.logical
+* paste
+
+* as.logical
 
 
 ## References
