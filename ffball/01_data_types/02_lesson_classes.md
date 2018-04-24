@@ -134,7 +134,7 @@ Character objects can be concatenated using the `paste` function. For example:
 > lastName <- 'Brady'
 > paste(firstName, lastName)
 [1] "Tom Brady"
-
+```
 ### Logical
 The only logical values are `TRUE`, `FALSE`, and `NA`. `NA` (or not applicable) is an empty value and is considered a logical object itself.
 ```r
