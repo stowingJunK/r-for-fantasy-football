@@ -24,7 +24,8 @@ For example, if I want to find out the type of data used to represent reception 
 Functions used:
 * class
 
-Next lesson: [Classes](https://github.com/stowingJunK/r-for-fantasy-football/blob/master/ffball/01_data_types/02_lesson_classes.md)
+Next lesson: [Attributes](https://github.com/stowingJunK/r-for-fantasy-football/blob/master/ffball/01_data_types/lesson_02_attributes)
 
 ## References
+John Hopkins University Data Science Specialization
 http://www.r-tutor.com/
