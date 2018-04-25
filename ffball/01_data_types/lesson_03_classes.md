@@ -1,7 +1,7 @@
 # Data Types
 
 ## Classes
-In this lesson, we discuss the different atomic classes of objects, and how to create or coerce them.
+One of the most important attributes of objects in R is its "class". In this lesson, we discuss the different atomic classes of objects, and how to create or coerce them.
 
 ### Numeric
 Numeric objects are used to represent decimal values in R. An example of a numeric object is `7` or `3`. This is also the default computational data type. In most cases, R defines an object's class as soon as you set the variable; variables set as numbers are automatically defined as *numeric*. You can use functions to explicitly define an object's class, otherwise known as explicit coercion. 
