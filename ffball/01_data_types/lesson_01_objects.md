@@ -1,33 +1,14 @@
 # Data Types
-This section provides the goundwork for solving any problems using R. Without an understanding of the various data types, one will have difficulty coding in R. This lesson gives a brief overview about objects in R.
+This section provides the goundwork for solving any problems using R. Without an understanding of the various data types, one will have difficulty coding in R. This section on *Data Types* gives a brief overview about objects in R, their attributes, and more.
 
 
 ## Objects
-In R, there are five basic or "atomic" classes of objects. 
-* Character
-* Numeric (real numbers)
-* Integer
-* Complex
-* Logical
-
-Class is a blueprint for an object in R. An object's class can be retrieved by the `class` function.
-```r
-> recYards <- 72
-```
-For example, if I want to find out the type of data used to represent reception yards, I would enter this:
-```r
-> class(recYards)
-[1] "numeric"
-```
+Similar to other computer languages, variables are the interface for accessing data in stored memory. Objects, or specialized data structures, are used in R to achieve this. Objects hold much more data than what's visible on the surface. For example, a variable can contain a value or set of values, but, as an object, it also holds information such as the type of data, the length of data, or other user-defined attributes. 
 
 ## Summary
-Functions used:
-* class
-
 In the next lesson, I dive deeper into the different types of attributes an object in R can possess.
 
 Next lesson: [Attributes](https://github.com/stowingJunK/r-for-fantasy-football/blob/master/ffball/01_data_types/lesson_02_attributes.md)
 
 ## References
-John Hopkins University Data Science Specialization
-http://www.r-tutor.com/
+https://cran.r-project.org/
