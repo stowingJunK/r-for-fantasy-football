@@ -26,7 +26,7 @@ Functions used:
 
 In the next lesson, I dive deeper into the different types of attributes an object in R can possess.
 
-Next lesson: [Attributes](https://github.com/stowingJunK/r-for-fantasy-football/blob/master/ffball/01_data_types/lesson_02_attributes)
+Next lesson: [Attributes](https://github.com/stowingJunK/r-for-fantasy-football/blob/master/ffball/01_data_types/lesson_02_attributes.md)
 
 ## References
 John Hopkins University Data Science Specialization
