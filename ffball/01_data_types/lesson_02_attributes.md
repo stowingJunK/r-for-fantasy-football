@@ -3,10 +3,10 @@
 ## Attributes
 Attributes are used to store metadata about objects in R. Common attributes used by R are:
 * names
-* dimension names
-* dimensions
-* class
 * length
+* dimensions
+* dimension names
+* class
 
 ### Names
 The attributes `names` is a character vector that gives each element of an object a name. An object can be named when creating the vector:
@@ -33,8 +33,11 @@ The `names` function can be used to retrieve the name of an object.
 ```
 Names do not need to be unique, but are powerful for subsetting, which will be discussed in a later lesson. By the same token, not all elements within an object needs to have a name. If an element does not have a name, the name will be set as an empty evalue, `NA`. 
 
-### Dimension Names
-Some objects such as matrices and other arrays have multiple dimensions. Sometimes it is useful to give a name, or `dimnames`, to each dimension. 
+### Length
+
+
+### Dimensions
+In R, adding a `dim` attribute to a vector transforms it into a multi-dimensional array, such as a matrix, which has two dimensions. 
 ```r
 > players <- matrix(c('reed', 'crowder', 'perine', 'njoku', 'gordon', 'hyde'), nrow = 3, ncol = 2)
 > players
@@ -43,7 +46,9 @@ Some objects such as matrices and other arrays have multiple dimensions. Sometim
 [2,] "crowder" "gordon"
 [3,] "perine"  "hyde"  
 ```
-As you can tell in the matrix above, the row and columns are unlabeled. We can use `dimnames` to set and retrieve dimension names.
+
+### Dimension Names
+As discussed in the previous section, *Dimensions*, some objects such as matrices and other arrays have multiple dimensions. Sometimes it is useful to give a name, or `dimnames`, to each dimension. We can use `dimnames` to set and retrieve dimension names.
 ```r
 > dimnames(players) <- list(c('te', 'wr', 'rb'), c('redskins', 'browns'))
 > players
@@ -70,9 +75,6 @@ wr "crowder" "gordon"
 rb "perine"  "hyde" 
 ```
 
-### Dimensions
-
-
 ### Class
 In the previous [lesson](https://github.com/stowingJunK/r-for-fantasy-football/blob/master/ffball/01_data_types/lesson_01_objects.md), I introduced classes, which is a blueprint of an object. There are several types of classes an object can become, each behaving differently, and it warrants having its own [lesson](https://github.com/stowingJunK/r-for-fantasy-football/blob/master/ffball/01_data_types/lesson_03_classes.md). Reiterating the previous lesson, objects can be:
 * Characters
@@ -88,22 +90,18 @@ You can retrieve an object's class by using the `class` function:
 [1] "integer"
 ```
 
-### Length
-
-
-
 ## Summary
 Functions used:
 * names
+* dim
 * dimnames
 * rownames
 * colnames
-* dim
 * class
 * length
 * attr
 
-Nexton lesson: [Classes](https://github.com/stowingJunK/r-for-fantasy-football/blob/master/ffball/01_data_types/lesson_03_classes.md)
+Next lesson: [Classes](https://github.com/stowingJunK/r-for-fantasy-football/blob/master/ffball/01_data_types/lesson_03_classes.md)
 
 ## References
 John Hopkins University Data Science Specialization
