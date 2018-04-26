@@ -177,24 +177,23 @@ Standard logical operators are `&` (and), `|` (or), and `!` (negation).
 ```
 
 ## Summary
+An object's `class` is its blueprint. A class is one description that defines a data type. It's very useful to understand how objects of different classes interact with each other and the effects of coercing an object to another class.
+
+In the next lesson, I discuss vectors, which are objects that contain more than one value.
+
 Functions used:
-
 * as.numeric
-
 * class
-
 * as.integer
-
 * as.complex
-
 * sqrt
-
 * as.character
-
 * paste
-
 * as.logical
 
+Next lesson: [Vectors](https://github.com/stowingJunK/r-for-fantasy-football/blob/master/ffball/01_data_types/lesson_04_vectors.md)
 
 ## References
+http://www.iitk.ac.in/
 http://www.r-tutor.com/
+
