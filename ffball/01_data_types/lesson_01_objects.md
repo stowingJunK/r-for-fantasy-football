@@ -1,5 +1,5 @@
 # Data Types
-This section provides the goundwork for solving any problems using R. Without an understanding of the various data types, one will have difficulty coding in R. This section on *Data Types* gives a brief overview about objects in R, their attributes, and more.
+This section provides the goundwork for solving any problems using R. Without an understanding of the various data types, one will have difficulty coding in R. This section on *Data Types* gives a brief overview about different data structures in R, their attributes, and more.
 
 
 ## Objects
