@@ -109,19 +109,23 @@ rb "perine"  "hyde"
 ```
 
 ### Class
-In the previous [lesson](https://github.com/stowingJunK/r-for-fantasy-football/blob/master/ffball/01_data_types/lesson_01_objects.md), I introduced classes, which is a blueprint of an object. There are several types of classes an object can become, each behaving differently, and it warrants having its own [lesson](https://github.com/stowingJunK/r-for-fantasy-football/blob/master/ffball/01_data_types/lesson_03_classes.md). Reiterating the previous lesson, objects can be:
-* Characters
-* Real numbers
-* Complex numbers
-* Integers
-* Logicals
+In R, there are five basic or "atomic" classes of objects. 
+* Character
+* Numeric (real numbers)
+* Integer
+* Complex
+* Logical
 
-You can retrieve an object's class by using the `class` function:
+An object's `class` is a blueprint for an object in R. An object's class can be retrieved by the `class` function.
 ```r
-> wins <- 10L
-> class(wins)
-[1] "integer"
+> recYards <- 72
 ```
+For example, if I want to find out the type of data used to represent reception yards, I would enter this:
+```r
+> class(recYards)
+[1] "numeric"
+```
+There are several types of classes an object can become, each behaving differently and warrants having its own [lesson](https://github.com/stowingJunK/r-for-fantasy-football/blob/master/ffball/01_data_types/lesson_03_classes.md).
 
 ## Summary
 I hope this section gives you a deeper look into the inside components of objects in R. Any of the attribute functions (`names`, `dim`, `class`, etc.) can be used to retrieve its respective value from an object. In the next lesson, I dive into the specifics of classes of objects, and they can be coerced and manipulated.
