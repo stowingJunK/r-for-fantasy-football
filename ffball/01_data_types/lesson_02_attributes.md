@@ -145,4 +145,5 @@ Next lesson: [Classes](https://github.com/stowingJunK/r-for-fantasy-football/blo
 
 ## References
 John Hopkins University Data Science Specialization
+
 http://adv-r.had.co.nz/
