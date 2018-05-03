@@ -195,5 +195,6 @@ Next lesson: [Vectors](https://github.com/stowingJunK/r-for-fantasy-football/blo
 
 ## References
 http://www.iitk.ac.in/
+
 http://www.r-tutor.com/
 
