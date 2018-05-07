@@ -41,7 +41,7 @@ Similar to single-element objects, the `as.*` functions from the [Classes](https
 [1] NA NA
 ```
 
-## Lists
+### Lists
 A different type of vector that allows elements of different classes are lists. Lists are created using the `list` function.
 ```r
 > exampleList <- list(49L, 'San Francisco', 10.5)
