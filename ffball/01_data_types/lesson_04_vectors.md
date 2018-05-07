@@ -35,11 +35,35 @@ Alternatively, integer vectors can be created sequentially as shown below.
 Vectors contain only a single class of values otherwise coercion occurs such as `brownsRecord`. Though the first value was inputed as a numeric, the vector coerces to a complex vector due to the second, complex, value. 
 
 ### Explicit Coercion
-Similar to single-element objects, the `as.*` functions from the [Classes](https://github.com/stowingJunK/r-for-fantasy-football/blob/master/ffball/01_data_types/lesson_03_classes.md) lessons can
+Similar to single-element objects, the `as.*` functions from the [Classes](https://github.com/stowingJunK/r-for-fantasy-football/blob/master/ffball/01_data_types/lesson_03_classes.md) lessons can be used to coerce an object to another class. Just like other objects, non-sensical coercion will result in `NA`s. 
+```r
+> as.numeric(teams)
+[1] NA NA
+```
+
+## Lists
+A different type of vector that allows elements of different classes are lists. Lists are created using the `list` function.
+```r
+> exampleList <- list(49L, 'San Francisco', 10.5)
+> exampleList
+[[1]]
+[1] 49
+
+[[2]]
+[1] "San Francisco"
+
+[[3]]
+[1] 10.5
+```
 
 ## Summary
+Vectors are a useful form of storing data and are much more better suited for representing a set of similar data. This is especially useful if you have many data values, and you don't want to store each value as a seperate variable. In the next leson, I discuss objects with more than one dimension, arrays or more commonly known as matrices.
+
 Functions used:
 * c
+* list
+
+Next lesson: [Matrices](https://github.com/stowingJunK/r-for-fantasy-football/blob/master/ffball/01_data_types/lesson_05_matrices.md)
 
 ## References
 John Hopkins University Data Science Specialization
